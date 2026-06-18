@@ -10,7 +10,11 @@
         android:id="@+id/txtClock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:00:00"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:text="00:00:00"/>
+
+    <com.example.smartclockpro.AnalogClockView
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
 
 </LinearLayout>
